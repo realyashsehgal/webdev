@@ -1,0 +1,10 @@
+body{
+    background: url('../images/bg.png') no-repeat ;
+    background-size: cover;
+}
+#id{
+    background-color: transparent;
+}
+ul li a {
+    text-decoration: none;
+}
