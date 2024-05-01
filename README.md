@@ -1,1 +1,1 @@
-idk its not working i am dumb
+okay so i am done with the home page 
