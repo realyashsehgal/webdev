@@ -1,0 +1,82 @@
+body{
+    background: url('/images/bg.png') no-repeat ;
+    background-size: cover;
+    background-color: rgb(20, 19, 19);
+} 
+/* Add this CSS to your styles.css file */
+
+#container {
+    overflow: auto; /* Clear float */
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .navbarheader {
+    overflow: auto; /* Clear float */
+    padding: 10px;
+  }
+  
+  #logo {
+    float: left; /* Float the logo to the right */
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    background: url('images/rllogo.png') no-repeat;
+    background-size: contain; /* Ensure the logo fits within the container */
+    padding: 5px;
+  }
+  
+  h2 {
+    float: left; /* Float the h2 to the left */
+    margin-right: 10px; /* Adjust spacing between logo and text */
+    color: white;
+  }
+  
+  /* Add additional styling for ul if needed */
+  li{
+    display: inline;
+    float: right;
+    margin-left: 25px;
+    transition-property: all;
+    transition-duration: 0.3s;
+  }
+  li:hover{
+    transform: scale(1.02);
+    background-color: rgb(55, 68, 154);
+    border-color: white;
+    border: 3px;
+    border-radius: 10px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 25px;
+    color: azure;
+    padding: 5px;
+  }
+  .container2{
+    overflow: auto;
+    padding: 20px;
+  }
+  #car{
+    margin-top: 70px;
+    padding: 10px;
+    float: right;
+    background: url('images/dom.png') no-repeat;
+    background-size: contain;
+    height: 356px;
+    width: 540px;
+  }
+  h1{
+    padding: 10px;
+    color: beige;
+    font-size: 300%;
+    width: 50%;
+  }
+  .content{
+    padding: 15px;
+    float: left;
+    width: 50%;
+  }
+  #main{
+    padding: 10px;
+    color: antiquewhite;
+  }
