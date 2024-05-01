@@ -1,10 +1,10 @@
 body{
-    background: url('images/bg.png') no-repeat ;
+    background: url('/images/bg.png') no-repeat ;
     background-size: cover;
 } 
 
 #logo{
-    background-image: url('images/klipartz.com (3).png');
+    background-image: url('/images/klipartz.com\ \(3\).png');
 }
 li{
     display: inline-block;
