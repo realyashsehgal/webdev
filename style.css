@@ -1,0 +1,12 @@
+body{
+    background: url('/images/bg.png') no-repeat ;
+    background-size: cover;
+    
+} 
+
+#logo{
+    background-image: url('/images/rllogo.png');
+}
+li{
+    display: inline-block;
+}
