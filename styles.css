@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     /* background: url('images/bg.jpg') no-repeat ;
     background-size: cover; */
@@ -88,6 +91,7 @@ body{
     padding: 10px;
     color: antiquewhite;
   }
+  /*ranks part*/
   .container4{
     overflow: auto;
     padding: 15px;
@@ -100,7 +104,9 @@ body{
   }
   #ranks{
     padding: 20px;
+    max-height: max-content;
   }
+  /*bronze rank css*/
   #bronze{
     width: 40%;
     height: 170px;
@@ -109,6 +115,7 @@ body{
     border-radius: 15px;
     padding: 15px;
     float: left;
+    margin: 10px;
   }
   #bronze_text{
     color: beige;
@@ -131,28 +138,7 @@ body{
     margin-top: 35px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /*silver rank css*/
   #silver{
     width: 40%;
     height: 170px;
@@ -161,6 +147,7 @@ body{
     border-radius: 15px;
     padding: 15px;
     float: right;
+    margin: 10px;
   }
   #silver_text{
     color: beige;
@@ -176,6 +163,135 @@ body{
   }
   #silver-image{
     background: url('images/silver3.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 35px;
+  }
+
+  /*gold rank css*/
+  #gold{
+    width: 40%;
+    height: 170px;
+    background-color: rgb(22, 22, 22);
+    border: 4px solid rgb(59, 57, 57);
+    border-radius: 15px;
+    padding: 15px;
+    float: left;
+    margin: 10px;
+  }
+  #gold_text{
+    color: beige;
+  }
+  #content-gold{
+    float: left;
+    width: 80%;
+  }
+  #gold-heading{
+    color: beige;
+    font-size: 150%;
+
+  }
+  #gold-image{
+    background: url('images/gold2.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 35px;
+  }
+  
+  /*platinum rank css*/
+
+  #platinum{
+    width: 40%;
+    height: 170px;
+    background-color: rgb(22, 22, 22);
+    border: 4px solid rgb(59, 57, 57);
+    border-radius: 15px;
+    padding: 15px;
+    float: right;
+    margin: 10px;
+  }
+  #platinum_text{
+    color: beige;
+  }
+  #content-platinum{
+    float: left;
+    width: 80%;
+  }
+  #platinum-heading{
+    color: beige;
+    font-size: 150%;
+
+  }
+  #platinum-image{
+    background: url('images/plat2.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 35px;
+  }
+
+  /*diamond rank css*/
+  #diamond{
+    width: 40%;
+    height: 170px;
+    background-color: rgb(22, 22, 22);
+    border: 4px solid rgb(59, 57, 57);
+    border-radius: 15px;
+    padding: 15px;
+    float: left;
+    margin: 10px;
+  }
+  #diamond_text{
+    color: beige;
+  }
+  #content-diamond{
+    float: left;
+    width: 80%;
+  }
+  #diamond-heading{
+    color: beige;
+    font-size: 150%;
+
+  }
+  #diamond-image{
+    background: url('images/diamond3.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 35px;
+  }
+  
+  /*grand champ rank css*/
+  #grandchamp{
+    width: 40%;
+    height: 170px;
+    background-color: rgb(22, 22, 22);
+    border: 4px solid rgb(59, 57, 57);
+    border-radius: 15px;
+    padding: 15px;
+    float: right;
+    margin: 10px;
+  }
+  #grandchamp_text{
+    color: beige;
+  }
+  #content-grandchamp{
+    float: left;
+    width: 80%;
+  }
+  #grandchamp-heading{
+    color: beige;
+    font-size: 150%;
+
+  }
+  #grandchamp-image{
+    background: url('images/gc.png');
     background-size: contain;
     height: 100px;
     width: 100px;
