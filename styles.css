@@ -88,14 +88,18 @@ body{
     padding: 10px;
     color: antiquewhite;
   }
-  #container4{
+  .container4{
     overflow: auto;
+    padding: 15px;
   }
   #ranks-head{
     color: beige;
     text-align: center;
     font-weight: bold;
     font-size: 200%;
+  }
+  #ranks{
+    padding: 20px;
   }
   #bronze{
     width: 45%;
