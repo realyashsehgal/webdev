@@ -43,14 +43,14 @@ body{
   }
   
   /* Add additional styling for ul if needed */
-  li{
+  #navigation{
     display: inline;
     float: right;
     margin-left: 25px;
     transition-property: all;
     transition-duration: 0.3s;
   }
-  li:hover{
+  #navigation:hover{
     transform: scale(1.02);
     background-color: rgb(55, 68, 154);
     border-color: white;
@@ -58,6 +58,7 @@ body{
     border-radius: 10px;
   }
   a{
+    list-style-type: none;
     text-decoration: none;
     font-size: 25px;
     color: azure;
@@ -297,4 +298,29 @@ body{
     width: 100px;
     float: right;
     margin-top: 35px;
+  }
+  /*footer*/
+  #container5{
+    overflow: auto ;
+    background-color: black;
+    height: 200px;
+    padding: 15px ;
+    margin: 10px;
+  }
+  #end{
+    padding: 15px ;
+    margin: 10px;
+    height: max-content;
+  }
+  #endhead{
+    color: white;
+    text-align: center;
+    margin: 10px;
+  }
+  #rlcsteam{
+    float: left;
+  }
+  #connect{
+    float: right;
+    color: white;
   }
